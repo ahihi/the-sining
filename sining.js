@@ -142,7 +142,7 @@ $(function() {
     var sining = new Sining();
 
     var freq_val = scale(0, 1, 60, 440, Math.random());
-    var freq_slider = new FreqSlider(1, 22000, freq_val);
+    var freq_slider = new FreqSlider(20, 22000, freq_val);
     
     var vol_val = scale(0, 1, -35, -30, Math.random());
     var vol_slider = new VolSlider(-100, 0, vol_val);
