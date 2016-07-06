@@ -133,7 +133,6 @@ var sound_color = function(freq_slider, vol_slider) {
     var lightness_pct = "" + (lightness * 100) + "%";
     
     var color = "hsla(" + hue + ", 100%, " + lightness_pct + ", 1)";
-    console.log(color);
     return color;
 };
 
